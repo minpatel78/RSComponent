@@ -61,10 +61,10 @@ public class ProductPage extends  BasePage {
             myUtility.closePopUp();
 
             myUtility.scrollDownWebpage();
-            Thread.sleep(3000);
+            Thread.sleep(5000);
             Actions actions = new Actions(driver);
             actions.moveToElement(addProductToBasketField);
-                Thread.sleep(3000);
+                Thread.sleep(5000);
                 actions.moveToElement(addProductToBasketField);
                 actions.moveToElement(viewBasketButtonField).click().perform();
 
